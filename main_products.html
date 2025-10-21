@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<title>المنتجات</title>
+<link rel="stylesheet" href="main_products.css">
+<link rel="icon" type="image/png" href="./image/logo.png">
+</head>
+<body>
+    <!--  حقل البحث -->
+<div class="search-container">
+    <input type="text" id="searchInput" class="search-box" placeholder="ابحث عن منتج...">
+</div>
+<!--حقل الازرار-->
+ <div class="buttons-container">
+    <a href="test.html" class="btn">المطورين</a>
+    <a href="inter_face.html" class="btn">مقدمة الموقع</a>
+  </div>
+
+<h1 class="h1">قائمة المنتجات</h1>
+
+
+
+<div class="container">
+    <div class="product" onclick="goToProduct('pro1.html')">
+        <img src="./image/air.jpg" alt="منتج 1"  />
+        <h3>سماعات لاسلكية</h3>
+        <p>سماعات عالية الجودة مع صوت نقي وعمر بطارية طويل.</p>
+        <div class="price">$70</div>
+        <button class="add-to-cart-btn" onclick="addToCart(event, 'ساعة يد كلاسيكية')">أضف إلى السلة</button>
+    </div>
+    <div class="product"onclick="goToProduct('pro2.html')">
+        <img src="./image/c.jpg" alt="منتج 2" />
+        <h3>سيارة فيراري</h3>
+        <p>تجسد هذه السيارة الرياضية الفارهة روح السرعة والفخامة، </p>
+        <div class="price">$1000,000</div>
+        <button class="add-to-cart-btn" onclick="addToCart(event, 'سماعات لاسلكية')">أضف إلى السلة</button>
+    </div>
+    <div class="product" onclick="goToProduct('pro3.html')">
+        <img src="./image/lap.jpg" alt="منتج 3" />
+        <h3>لابتوب</h3>
+        <p>لابتوب قوي ومتعدد الاستخدامات يجمع بين الأداء العالي والتصميم العصري</p>
+        <div class="price">$300</div>
+        <button class="add-to-cart-btn" onclick="addToCart(event, 'ساعة يد كلاسيكية')">أضف إلى السلة</button>
+    </div><div class="product" onclick="goToProduct('pro4.html')">
+        <img src="./image/m.jpg" alt="منتج 4" />
+        <h3>موتور سبورت</h3>
+        <p>توفر تجربة قيادة آمنة ومثيرة لعشاق رياضة المحركات</p>
+        <div class="price">$7000</div>
+        <button class="add-to-cart-btn" onclick="addToCart(event, 'ساعة يد كلاسيكية')">أضف إلى السلة</button>
+    </div><div class="product" onclick="goToProduct('pro5.html')">
+        <img src="./image/mo.jpg" alt="منتج 5" />
+        <h3>موتور كلاسيكي</h3>
+         <p>موتور أنيق يعكس الطابع الكلاسيكي لمحبي السيارات والموتورات، </p>
+        <div class="price">$9000</div>
+        <button class="add-to-cart-btn" onclick="addToCart(event, 'ساعة يد كلاسيكية')">أضف إلى السلة</button>
+    </div><div class="product" onclick="goToProduct('pro6.html')">
+        <img src="./image/ph3.jpg" alt="منتج 6" />
+        <h3>ايفون 16 برو ماكس</h3>
+         <p>هاتف ذكي رائد يجمع بين تصميم فاخر وأحدث التقنيات</p>
+        <div class="price">$2700</div>
+        <button class="add-to-cart-btn" onclick="addToCart(event, 'ساعة يد كلاسيكية')">أضف إلى السلة</button>
+    </div><div class="product" onclick="goToProduct('pro7.html')">
+        <img src="./image/tsh.jpg" alt="منتج 7" />
+        <h3>تي شرت روبلوكس</h3>
+       <p>تي شرت مريح وعصري لمحبي عالم روبلوكس</p>
+        <div class="price">$90</div>
+        <button class="add-to-cart-btn" onclick="addToCart(event, 'ساعة يد كلاسيكية')">أضف إلى السلة</button>
+    </div><div class="product" onclick="goToProduct('pro8.html')">
+        <img src="./image/w.webp" alt="منتج 8" />
+        <h3>ساعة يد كلاسيكية</h3>
+         <p>ساعة أنيقة تجمع بين البساطة والفخامة، </p>
+        <div class="price">$900</div>
+        <button class="add-to-cart-btn" onclick="addToCart(event, 'ساعة يد كلاسيكية')">أضف إلى السلة</button>
+    </div><div class="product" onclick="goToProduct('pro9.html')">
+        <img src="./image/wh.webp" alt="منتج 9" />
+        <h3>ساعة يد مميزة</h3>
+         <p>تصميم عصري وجريء مع مواد فاخرة</p>
+        <div class="price">$370</div>
+        <button class="add-to-cart-btn" onclick="addToCart(event, 'ساعة يد كلاسيكية')">أضف إلى السلة</button>
+    </div><div class="product" onclick="goToProduct('pro10.html')">
+        <img src="./image/hair.jpg" alt="منتج 10" />
+        <h3>غسول للشعر</h3>
+        <p>غسول غني بالمكونات الطبيعية لتنظيف الشعر بعمق وترطيبه</p>
+        <div class="price">$120</div>
+        <button class="add-to-cart-btn" onclick="addToCart(event, 'ساعة يد كلاسيكية')">أضف إلى السلة</button>
+    </div><div class="product" onclick="goToProduct('pro11.html')">
+        <img src="./image/tv.jpg" alt="منتج 11" />
+        <h3>TV</h3>
+         <p>تلفزيون عالي الدقة يوفر صورًا واقعية وصوتًا واضحًا، </p>
+        <div class="price">$500</div>
+        <button class="add-to-cart-btn" onclick="addToCart(event, 'ساعة يد كلاسيكية')">أضف إلى السلة</button>
+    </div><div class="product" onclick="goToProduct('pro12.html')">
+        <img src="./image/sh.jpg" alt="منتج 12" />
+        <h3>كوتش</h3>
+        <p>حذاء رياضي أنيق ومريح، يوفر دعمًا مثاليًا للقدم أثناء الحركة ويجمع </p>
+        <div class="price">$120</div>
+        <button class="add-to-cart-btn" onclick="addToCart(event, 'ساعة يد كلاسيكية')">أضف إلى السلة</button>
+    </div><div class="product" onclick="goToProduct('pro13.html')">
+        <img src="./image/j.jpg" alt="منتج 13" />
+        <h3>جاكت </h3>
+        <p>جاكت عصري يحميك من البرد مع تصميم أنيق، مناسب للارتداء اليومي</p>
+        <div class="price">$80</div>
+        <button class="add-to-cart-btn" onclick="addToCart(event, 'ساعة يد كلاسيكية')">أضف إلى السلة</button>
+    </div><div class="product" onclick="goToProduct('pro14.html')">
+        <img src="./image/b.webp" alt="منتج 14" />
+        <h3>شنطة</h3>
+        <p>شنطة عملية وعصرية مصنوعة من خامات عالية الجودة، </p>
+        <div class="price">$60</div>
+        <button class="add-to-cart-btn" onclick="addToCart(event, 'ساعة يد كلاسيكية')">أضف إلى السلة</button>   
+</div>
+
+<script src="./main_products.JS">
+ 
+</script>
+
+</body>
+</html>

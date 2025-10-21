@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صفحة المنتج</title>
+  <link rel="stylesheet" href="./pro.css">
+  <link rel="icon" type="image/png" href="./image/logo.png">
+</head>
+<body>
+  <div class="container">
+    <div class="product-details">
+      <h1>تلفاز</h1>
+      <p>
+تلفزيون عالي الدقة يوفر صورًا واقعية وصوتًا واضحًا، مع تقنيات حديثة لتجربة مشاهدة غامرة وممتعة.      </p>
+      <div class="price">$500</div>
+      <div class="buttons">
+        <button class="btn" id="addCart">إضافة إلى السلة</button>
+        <button class="btn" id="goHome">العودة إلى الرئيسية</button>
+      </div>
+    </div>
+
+    <div class="product-image">
+      <div class="images-wrapper">
+        <img src="./image/tv.jpg" class="active" alt="صورة المنتج 1">
+        <img src="./image/tv2.jpg" alt="صورة المنتج 2">
+        <img src="./image/tv3.jpg" alt="صورة المنتج 3">
+      </div>
+
+      <div class="controls">
+        <div class="arrows">
+          <div class="arrow left" onclick="prevImage()">→</div>
+          <div class="arrow right" onclick="nextImage()">←</div>
+        </div>
+        <div class="dots">
+          <span class="dot active" onclick="currentImage(0)"></span>
+          <span class="dot" onclick="currentImage(1)"></span>
+          <span class="dot" onclick="currentImage(2)"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./pro.js">
+  
+  </script>
+</body>
+</html>
